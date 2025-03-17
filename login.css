@@ -67,7 +67,3 @@ body {
 .LogInButton:hover {
     background-color: #f0f0f0;
 }
-
-.LogInButton:focus {
-    outline: none;
-}
