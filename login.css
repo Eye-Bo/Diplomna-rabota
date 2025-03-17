@@ -1,17 +1,15 @@
-html
-{
+html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
 *{
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body
-{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,70 +17,56 @@ body
     background-color: #CCFF00;
 }
 
-.wrapper
-{
+
+.wrapper {
     width: 450px;
     background-color: blueviolet;
     height: 300px;
     color: white;
-    border: 10px;
     border-radius: 20px;
-}
-
-.wrapper h1
-{
-    font-size: 50px;
+    padding: 20px;
     text-align: center;
 }
 
-.wrapper .inputusername
-{
+
+.inputusername,
+.inputpassword {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.inputusername input,
+.inputpassword input {
     width: 100%;
     height: 50px;
-    margin: 30px 0;
-}
-
-.inputusername input
-{
-    width: 100%;
-    height: 100%;
-    border: 10px solid white;
+    border: 2px solid white;
     border-radius: 40px;
-}
-
-.wrapper .inputpassword
-{
-    width: 100%;
-    height: 50px;
-    margin: 30px 0;
-}
-
-.inputpassword input
-{
-    width: 100%;
-    height: 100%;
-    border: 10px solid white;
-    border-radius: 40px;
-}
-
-.inputpassword input::placeholder
-{
-    color: black;
-}
-
-.LogInButton
-{
-    background-color: #f4511e;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
+    padding: 10px;
     font-size: 16px;
-    margin: 4px 2px;
-    opacity: 0.6;
-    transition: 0.3s;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
 }
-afwfqfaefffqf
+
+.LogInButton {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogInButton:hover {
+    background-color: #f0f0f0;
+}
+
+.LogInButton:focus {
+    outline: none;
+}
