@@ -5,26 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulse</title>
     <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="gymsait.js">
+    <script src="gymsait.js" defer></script> <!-- ✅ Corrected JavaScript inclusion -->
 </head>
 <body>
-    <div class = "wrapper">
+    <div class="wrapper">
         <form action="">
-            <h1>
-                Login
-            </h1>
-            <div class = "inputusername">
-                <input type="username" placeholder="Username" required>
-
+            <h1>Login</h1>
+            
+            <div class="inputusername">
+                <input type="text" placeholder="Username" required>
             </div>
 
-            <div class = "inputpassword">
-                <input type="username" placeholder="Password" required>
+            <div class="inputpassword">
+                <input type="password" placeholder="Password" required> <!-- ✅ Fixed type -->
             </div>
 
-            <div class = "LogInButton">
-                <button type="button">Log In</button>
-            </div>
+            <button type="submit" class="LogInButton">Log In</button> <!-- ✅ Moved button outside of div -->
         </form>
     </div>
 </body>
