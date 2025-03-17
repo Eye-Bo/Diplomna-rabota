@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+.wrapper
+{
+    width: 450px;
+    background-color: blueviolet;
+    height: 300px;
+    color: white;
+    border: 10px;
+    border-radius: 20px;
+}
+
+.wrapper h1
+{
+    font-size: 50px;
+    text-align: center;
+}
+
+.wrapper .inputusername
+{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.inputusername input
+{
+    width: 100%;
+    height: 100%;
+    border: 10px solid white;
+    border-radius: 40px;
+}
+
+.wrapper .inputpassword
+{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.inputpassword input
+{
+    width: 100%;
+    height: 100%;
+    border: 10px solid white;
+    border-radius: 40px;
+}
+
+.inputpassword input::placeholder
+{
+    color: black;
+}
