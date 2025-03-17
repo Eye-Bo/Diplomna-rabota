@@ -1,11 +1,12 @@
+
 html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -65,8 +66,4 @@ body {
 
 .LogInButton:hover {
     background-color: #f0f0f0;
-}
-
-.LogInButton:focus {
-    outline: none;
 }
