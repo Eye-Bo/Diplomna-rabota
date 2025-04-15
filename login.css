@@ -63,7 +63,3 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-.LogInButton:hover {
-    background-color: #f0f0f0;
-}
